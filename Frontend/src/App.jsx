@@ -9,7 +9,7 @@ function App() {
   const [amount, setAmount] = useState('');
   const [category, setCategory] = useState('Food'); // New State
 
-  const API_URL = 'http://localhost:5000/api/expenses';
+  const API_URL = 'https://ammarulhaq-expense-tracker.onrender.com/api/expenses';
 
   useEffect(() => { fetchExpenses(); }, []);
 
